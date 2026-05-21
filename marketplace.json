@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ai-agent-skills",
+  "version": "1.0.0",
+  "description": "Reusable AI agent skills by @JohnWayneeee — UI polish, React Flow, payoff modeling, browser audit, Pencil-to-code, and workflow nodes.",
+  "owner": {
+    "name": "JohnWayneeee",
+    "url": "https://github.com/JohnWayneeee"
+  },
+  "plugins": [
+    {
+      "name": "ui-final-polish",
+      "description": "Final visual polish for an existing UI without redesigning it. Use after structure is clear.",
+      "version": "1.0.0",
+      "source": "skills/ui-final-polish",
+      "category": "design"
+    },
+    {
+      "name": "react-flow-best-practices",
+      "description": "Best practices for @xyflow/react v12 canvases, custom nodes, handles, edges, and viewport controls.",
+      "version": "1.0.0",
+      "source": "skills/react-flow-best-practices",
+      "category": "development"
+    },
+    {
+      "name": "payoff-action-modeling",
+      "description": "Model post-outcome UI actions from user intent questions — placement, scope, pressure, and copy.",
+      "version": "1.0.0",
+      "source": "skills/payoff-action-modeling",
+      "category": "design"
+    },
+    {
+      "name": "browser-audit",
+      "description": "Pre-deploy accessibility, SEO, and Lighthouse quality audit of a live or preview page.",
+      "version": "1.0.0",
+      "source": "skills/browser-audit",
+      "category": "quality"
+    },
+    {
+      "name": "workflow-node-setup",
+      "description": "Configure, debug, and verify React Flow workflow nodes — handles, resizing, drag, markdown output.",
+      "version": "1.0.0",
+      "source": "skills/workflow-node-setup",
+      "category": "development"
+    },
+    {
+      "name": "pencil-to-code",
+      "description": "Convert Pencil .pen design files into production frontend code with layout, typography, and visual fidelity.",
+      "version": "1.0.0",
+      "source": "skills/pencil-to-code",
+      "category": "design"
+    }
+  ]
+}
