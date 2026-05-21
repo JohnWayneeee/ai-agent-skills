@@ -15,9 +15,20 @@ Each skill is a self-contained instruction set for an AI agent — drop it into 
 | [workflow-node-setup](skills/workflow-node-setup/) | Configure and debug React Flow workflow nodes |
 | [pencil-to-code](skills/pencil-to-code/) | Convert Pencil `.pen` designs into production frontend code |
 
-## Usage
+## Install
 
-### Claude Code / Claude Agent SDK
+### Via Claude Code marketplace (recommended)
+
+Add this repo as a marketplace source, then install individual skills:
+
+```
+/plugin marketplace add JohnWayneeee/ai-agent-skills
+/plugin install ui-final-polish@ai-agent-skills
+```
+
+Replace `ui-final-polish` with any skill name from the table above.
+
+### Manual — copy into your project
 
 Copy a skill folder into your project's `.agents/skills/` directory:
 
@@ -29,15 +40,17 @@ your-project/
             └── SKILL.md
 ```
 
-Then invoke it in your agent prompt:
+Or into your personal skills directory:
+
+```
+~/.claude/skills/ui-final-polish/
+```
+
+### Invoking a skill
 
 ```
 Use $ui-final-polish to improve the spacing and hierarchy on this card component.
 ```
-
-### Codex / other runtimes
-
-Place the `SKILL.md` in your skill directory and reference it by name according to your runtime's conventions.
 
 ## Structure
 
@@ -51,6 +64,8 @@ skills/<skill-name>/
 └── references/
     └── *.md                  # Optional: reference docs, checklists, criteria
 ```
+
+The `marketplace.json` in the repo root enables `/plugin marketplace add` install flow.
 
 ## License
 
