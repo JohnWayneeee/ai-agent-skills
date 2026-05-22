@@ -1,11 +1,9 @@
-<![CDATA[<div align="center">
-
 # 🤖 AI Agent Skills
 
 **Drop-in instruction sets that make your AI agent actually useful.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/skills-6-blue.svg)](#skills)
+[![Skills](https://img.shields.io/badge/skills-6-blue.svg)](#-skills)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg)](https://claude.ai/code)
 [![Marketplace](https://img.shields.io/badge/marketplace-ready-brightgreen.svg)](marketplace.json)
 [![Made by JohnWayneeee](https://img.shields.io/badge/made%20by-JohnWayneeee-orange.svg)](https://github.com/JohnWayneeee)
@@ -14,8 +12,6 @@
 A curated catalog of reusable skills by [@JohnWayneeee](https://github.com/JohnWayneeee) — each one a self-contained prompt you plug into Claude Code, Codex, or any compatible agent runtime and invoke by name.
 
 **No configuration. No boilerplate. Just pick a skill and go.**
-
-</div>
 
 ---
 
@@ -107,7 +103,7 @@ The `marketplace.json` in the repo root enables the `/plugin marketplace add` in
 <details>
 <summary><strong>ui-final-polish</strong> — Final visual polish without redesign</summary>
 
-**Category:** Design  
+**Category:** Design
 **Use when:** Structure is done, but spacing, hierarchy, or rhythm feel off.
 
 Applies a systematic pass over an existing UI component or page — fixing alignment, type scale, colour contrast, and white space — without changing layout or functionality.
@@ -119,7 +115,7 @@ Applies a systematic pass over an existing UI component or page — fixing align
 <details>
 <summary><strong>react-flow-best-practices</strong> — @xyflow/react v12 patterns</summary>
 
-**Category:** Development  
+**Category:** Development
 **Use when:** Building or debugging a React Flow canvas, custom nodes, or edge routing.
 
 Covers node registration, handle placement, custom node types, viewport management, and performance patterns for `@xyflow/react` v12.
@@ -131,7 +127,7 @@ Covers node registration, handle placement, custom node types, viewport manageme
 <details>
 <summary><strong>payoff-action-modeling</strong> — Post-outcome UI decisions</summary>
 
-**Category:** Design  
+**Category:** Design
 **Use when:** Deciding what UI actions to show after a user completes a key step.
 
 Models the decision tree for post-outcome actions — placement, scope, urgency, and copy — based on what the user was trying to achieve.
@@ -143,7 +139,7 @@ Models the decision tree for post-outcome actions — placement, scope, urgency,
 <details>
 <summary><strong>browser-audit</strong> — Pre-deploy quality check</summary>
 
-**Category:** Quality  
+**Category:** Quality
 **Use when:** Before deploying any page to production.
 
 Runs a structured audit covering accessibility (WCAG), SEO meta, Core Web Vitals readiness, and Lighthouse score targets — returning prioritised findings.
@@ -155,7 +151,7 @@ Runs a structured audit covering accessibility (WCAG), SEO meta, Core Web Vitals
 <details>
 <summary><strong>workflow-node-setup</strong> — React Flow node configuration</summary>
 
-**Category:** Development  
+**Category:** Development
 **Use when:** A workflow node isn't connecting, resizing, or rendering correctly.
 
 Covers handle registration, resize observer setup, drag-and-drop wiring, and markdown output rendering inside React Flow nodes.
@@ -167,7 +163,7 @@ Covers handle registration, resize observer setup, drag-and-drop wiring, and mar
 <details>
 <summary><strong>pencil-to-code</strong> — Wireframe to production code</summary>
 
-**Category:** Design  
+**Category:** Design
 **Use when:** You have a Pencil `.pen` design and need production frontend code.
 
 Reads Pencil design files and generates layout, typography, spacing, and component structure faithful to the original wireframe.
@@ -186,14 +182,9 @@ Reads Pencil design files and generates layout, typography, spacing, and compone
 
 ## 🏗 Built alongside a real product
 
-<div align="center">
+These skills were developed while building **[Casely](https://casely.digital/)** — an AI-powered workflow and QA tool. They are production-tested, not theoretical.
 
-These skills were developed while building **[Casely](https://casely.digital/)** — an AI-powered workflow and QA tool.  
-They are production-tested, not theoretical.
-
-[![Visit Casely](https://img.shields.io/badge/Visit-casely.digital-ff6b6b?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://casely.digital/)
-
-</div>
+[![Visit Casely](https://img.shields.io/badge/Visit-casely.digital-ff6b6b?style=for-the-badge)](https://casely.digital/)
 
 ---
 
@@ -203,9 +194,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-<div align="center">
-
 Made with ❤️ by [@JohnWayneeee](https://github.com/JohnWayneeee)
-
-</div>
-]]>
