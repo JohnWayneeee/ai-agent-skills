@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ai-agent-skills",
-  "version": "1.0.0",
-  "description": "Reusable AI agent skills by @JohnWayneeee — UI polish, React Flow, payoff modeling, browser audit, Pencil-to-code, and workflow nodes.",
+  "version": "1.1.0",
+  "description": "Reusable AI agent skills by @JohnWayneeee — UI polish, React Flow, payoff modeling, browser audit, Pencil-to-code, workflow nodes, and design-to-FSD code translation.",
   "owner": {
     "name": "JohnWayneeee",
     "url": "https://github.com/JohnWayneeee"
@@ -48,6 +48,13 @@
       "description": "Convert Pencil .pen design files into production frontend code with layout, typography, and visual fidelity.",
       "version": "1.0.0",
       "source": "skills/pencil-to-code",
+      "category": "design"
+    },
+    {
+      "name": "figma-pencil-fsd-tailwind4",
+      "description": "Convert Figma or Pencil designs into production-ready frontend code using Feature-Sliced Design and Tailwind CSS v4. Framework-agnostic, with Server/Client guidance when RSC applies.",
+      "version": "1.0.0",
+      "source": "skills/figma-pencil-fsd-tailwind4",
       "category": "design"
     }
   ]
