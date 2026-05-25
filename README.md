@@ -1,9 +1,13 @@
+<p align="center">
+  <img src="https://placehold.co/1200x400/0a0a0a/ffffff?text=AI+Agent+Skills" alt="AI Agent Skills" width="100%" />
+</p>
+
 # 🤖 AI Agent Skills
 
 **Drop-in instruction sets that make your AI agent actually useful.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/skills-6-blue.svg)](#-skills)
+[![Skills](https://img.shields.io/badge/skills-7-blue.svg)](#-skills)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg)](https://claude.ai/code)
 [![Marketplace](https://img.shields.io/badge/marketplace-ready-brightgreen.svg)](marketplace.json)
 [![Made by JohnWayneeee](https://img.shields.io/badge/made%20by-JohnWayneeee-orange.svg)](https://github.com/JohnWayneeee)
@@ -40,6 +44,7 @@ Skills fix that. Each one gives your agent a focused role, a clear process, and 
 | [browser-audit](skills/browser-audit/) | `quality` | Pre-deploy accessibility, SEO, and Lighthouse audit with actionable findings |
 | [workflow-node-setup](skills/workflow-node-setup/) | `development` | Configure and debug React Flow workflow nodes without the usual trial-and-error |
 | [pencil-to-code](skills/pencil-to-code/) | `design` | Convert Pencil `.pen` wireframes into production-ready frontend code |
+| [figma-pencil-fsd-tailwind4](skills/figma-pencil-fsd-tailwind4/) | `design` | Translate Figma or Pencil designs into FSD + Tailwind 4 code — framework-agnostic, with RSC, tokens, and a11y guardrails |
 
 ---
 
@@ -169,6 +174,18 @@ Covers handle registration, resize observer setup, drag-and-drop wiring, and mar
 Reads Pencil design files and generates layout, typography, spacing, and component structure faithful to the original wireframe.
 
 [→ View skill](skills/pencil-to-code/)
+
+</details>
+
+<details>
+<summary><strong>figma-pencil-fsd-tailwind4</strong> — Design to FSD + Tailwind 4 code</summary>
+
+**Category:** Design
+**Use when:** Translating a Figma frame or Pencil `.pen` design into production code that respects Feature-Sliced Design boundaries and Tailwind v4 token conventions.
+
+Framework-agnostic. Decomposes a design into `shared` / `entities` / `features` / `widgets` / `pages` / `app-shell` / `app` layers, reconciles design variables with semantic tokens, enforces Server/Client boundaries when the host framework has RSC, and validates against an accessibility checklist. Comes with 8 reference files covering FSD mapping, RSC boundaries, Tailwind v4 tokens, Figma MCP workflow, Pencil workflow, a11y, project contracts, and a worked frame-to-code example.
+
+[→ View skill](skills/figma-pencil-fsd-tailwind4/)
 
 </details>
 
