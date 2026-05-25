@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="https://placehold.co/1200x400/0a0a0a/ffffff?text=AI+Agent+Skills" alt="AI Agent Skills" width="100%" />
+  <img src="assets/hero.png" alt="AI Agent Skills — Reusable intelligence for autonomous coding agents" width="100%" />
 </p>
 
-# 🤖 AI Agent Skills
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="#-skills"><img src="https://img.shields.io/badge/skills-7-blue.svg" alt="Skills" /></a>
+  <a href="https://claude.ai/code"><img src="https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg" alt="Claude Code" /></a>
+  <a href="marketplace.json"><img src="https://img.shields.io/badge/marketplace-ready-brightgreen.svg" alt="Marketplace" /></a>
+  <a href="https://github.com/JohnWayneeee"><img src="https://img.shields.io/badge/made%20by-JohnWayneeee-orange.svg" alt="Made by JohnWayneeee" /></a>
+  <a href="https://casely.digital/"><img src="https://img.shields.io/badge/built%20with-Casely-ff6b6b.svg" alt="Casely" /></a>
+</p>
 
-**Drop-in instruction sets that make your AI agent actually useful.**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/skills-7-blue.svg)](#-skills)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg)](https://claude.ai/code)
-[![Marketplace](https://img.shields.io/badge/marketplace-ready-brightgreen.svg)](marketplace.json)
-[![Made by JohnWayneeee](https://img.shields.io/badge/made%20by-JohnWayneeee-orange.svg)](https://github.com/JohnWayneeee)
-[![Casely](https://img.shields.io/badge/built%20with-Casely-ff6b6b.svg)](https://casely.digital/)
-
-A curated catalog of reusable skills by [@JohnWayneeee](https://github.com/JohnWayneeee) — each one a self-contained prompt you plug into Claude Code, Codex, or any compatible agent runtime and invoke by name.
-
-**No configuration. No boilerplate. Just pick a skill and go.**
+<p align="center">
+  A curated catalog of reusable skills by <a href="https://github.com/JohnWayneeee">@JohnWayneeee</a> — each one a self-contained prompt you plug into Claude Code, Codex, or any compatible agent runtime and invoke by name.
+  <br/>
+  <strong>No configuration. No boilerplate. Just pick a skill and go.</strong>
+</p>
 
 ---
 
