@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://placehold.co/1200x400/0a0a0a/ffffff?text=AI+Agent+Skills" alt="AI Agent Skills" width="100%" />
+</p>
+
 # 🤖 AI Agent Skills
 
 **Drop-in instruction sets that make your AI agent actually useful.**
