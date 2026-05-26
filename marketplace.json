@@ -1,13 +1,20 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ai-agent-skills",
-  "version": "1.1.0",
-  "description": "Reusable AI agent skills by @JohnWayneeee — UI polish, React Flow, payoff modeling, browser audit, Pencil-to-code, workflow nodes, and design-to-FSD code translation.",
+  "version": "1.2.0",
+  "description": "Reusable AI agent skills by @JohnWayneeee — UI polish, React Flow, payoff modeling, browser audit, Pencil-to-code, workflow nodes, design-to-FSD code translation, and brand asset generation.",
   "owner": {
     "name": "JohnWayneeee",
     "url": "https://github.com/JohnWayneeee"
   },
   "plugins": [
+    {
+      "name": "brand-assets-setup",
+      "description": "Generate and deploy a complete brand asset pack for Next.js App Router projects. Scans for colors, generates 12 assets, provides AI prompt, and imports with metadata wiring.",
+      "version": "1.0.0",
+      "source": "skills/brand-assets-setup",
+      "category": "design"
+    },
     {
       "name": "ui-final-polish",
       "description": "Final visual polish for an existing UI without redesigning it. Use after structure is clear.",
