@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
-  <a href="#-skills"><img src="https://img.shields.io/badge/skills-7-blue.svg" alt="Skills" /></a>
+  <a href="#-skills"><img src="https://img.shields.io/badge/skills-8-blue.svg" alt="Skills" /></a>
   <a href="https://claude.ai/code"><img src="https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg" alt="Claude Code" /></a>
   <a href="marketplace.json"><img src="https://img.shields.io/badge/marketplace-ready-brightgreen.svg" alt="Marketplace" /></a>
   <a href="https://github.com/JohnWayneeee"><img src="https://img.shields.io/badge/made%20by-JohnWayneeee-orange.svg" alt="Made by JohnWayneeee" /></a>
@@ -38,6 +38,7 @@ Skills fix that. Each one gives your agent a focused role, a clear process, and 
 
 | Skill | Category | What it does |
 |-------|----------|-------------|
+| [brand-assets-setup](skills/brand-assets-setup/) | `design` | Automate brand asset generation for Next.js projects — generate AI prompts, place favicons, PWA icons, OG images, and auto-wire them in `layout.tsx` and `manifest.json` |
 | [ui-final-polish](skills/ui-final-polish/) | `design` | Tighten spacing, hierarchy, and visual rhythm on an existing UI — without redesigning it |
 | [react-flow-best-practices](skills/react-flow-best-practices/) | `development` | Build `@xyflow/react` v12 canvases and custom nodes the right way |
 | [payoff-action-modeling](skills/payoff-action-modeling/) | `design` | Model post-outcome UI actions from user intent — turns "what happens next?" into a decision tree |
@@ -54,10 +55,10 @@ Skills fix that. Each one gives your agent a focused role, a clear process, and 
 
 ```bash
 /plugin marketplace add JohnWayneeee/ai-agent-skills
-/plugin install ui-final-polish@ai-agent-skills
+/plugin install brand-assets-setup@ai-agent-skills
 ```
 
-Replace `ui-final-polish` with any skill name from the table above.
+Replace `brand-assets-setup` with any skill name from the table above.
 
 ### Manual — copy into your project
 
@@ -65,20 +66,20 @@ Replace `ui-final-polish` with any skill name from the table above.
 your-project/
 └── .agents/
     └── skills/
-        └── ui-final-polish/
+        └── brand-assets-setup/
             └── SKILL.md
 ```
 
 Or into your personal skills directory:
 
 ```
-~/.claude/skills/ui-final-polish/
+~/.claude/skills/brand-assets-setup/
 ```
 
 ### Invoke a skill
 
 ```
-Use $ui-final-polish to improve the spacing and hierarchy on this card component.
+Use $brand-assets-setup to generate brand assets for my Next.js project.
 ```
 
 ---
@@ -104,6 +105,18 @@ The `marketplace.json` in the repo root enables the `/plugin marketplace add` in
 ---
 
 ## 📋 Skill Details
+
+<details>
+<summary><strong>brand-assets-setup</strong> — Automate brand asset generation</summary>
+
+**Category:** Design
+**Use when:** Setting up a Next.js project and need to generate all brand assets programmatically — favicons, PWA icons, OG images — and wire them into your layout and manifest.
+
+Scans your Next.js project structure, generates an AI-friendly prompt for asset creation, manages placement of all asset types, and automatically imports and configures them in `layout.tsx` and `manifest.json`.
+
+[→ View skill](skills/brand-assets-setup/)
+
+</details>
 
 <details>
 <summary><strong>ui-final-polish</strong> — Final visual polish without redesign</summary>
