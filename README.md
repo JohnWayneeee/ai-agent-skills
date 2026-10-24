@@ -225,3 +225,7 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 Made with ❤️ by [@JohnWayneeee](https://github.com/JohnWayneeee)
+
+---
+
+☕ Found these skills useful? [Buy me a coffee](https://buymeacoffee.com/JohnWayne) or star the repo.
